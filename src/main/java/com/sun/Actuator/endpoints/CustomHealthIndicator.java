@@ -9,5 +9,8 @@ public class CustomHealthIndicator implements HealthIndicator {
     @Override
     public Health health() {
         return Health.up().withDetail("error","404").build();
+
+
+
     }
 }
